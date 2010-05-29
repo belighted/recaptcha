@@ -32,7 +32,7 @@ module Recaptcha
           html << %{<textarea name="recaptcha_challenge_field" }
           html << %{rows="#{options[:textarea_rows] ||= 3}" }
           html << %{cols="#{options[:textarea_cols] ||= 40}"></textarea>\n  }
-          html << %{<input type="hidden" name="recaptcha_response_field" value="manual_challenge">}
+          html << %{<input type="hidden" name="recaptcha_response_field" value="manual_challenge" />}
           html << %{</noscript>\n}
         end
       end
