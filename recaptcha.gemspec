@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{recaptcha}
-  s.version = "0.2.3"
+  s.version = "0.2.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jason L. Perry"]
-  s.date = %q{2009-10-23}
+  s.date = %q{2010-05-30}
   s.description = %q{This plugin adds helpers for the reCAPTCHA API }
   s.email = %q{jasper@ambethia.com}
   s.extra_rdoc_files = [
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://ambethia.com/recaptcha}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.7}
   s.summary = %q{Helpers for the reCAPTCHA API}
   s.test_files = [
     "test/recaptcha_test.rb",
@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
     else
     end
   else
